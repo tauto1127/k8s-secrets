@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: battari-openai-key
+type: Opaque
+data:
+  BATTARI_OPENAI_API_KEY: |
